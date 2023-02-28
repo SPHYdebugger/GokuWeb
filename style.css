@@ -1,0 +1,26 @@
+.contenedor {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 150px 150px;
+  }
+  .uno{
+background-color: aqua;
+  }
+  .dos{
+    background-color: rgb(255, 0, 149);
+      }
+  .tres{
+background-color: rgb(0, 255, 55);
+  }
+  .cuatro{
+background-color: rgb(255, 81, 0);
+  }
+  .cinco{
+background-color: rgb(255, 30, 0);
+  }
+  .seis{
+background-color: rgb(255, 0, 179);
+  }
+
+    
