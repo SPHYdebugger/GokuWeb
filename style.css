@@ -1,47 +1,49 @@
 .contenedor {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: auto;
-    grid-template-rows:  1500px 300px auto auto 100px;
-  }
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: auto;
+  grid-template-rows:  1500px 300px auto auto 100px;
+}
+
+.uno{
   
-  .uno{
-    
-    position: fixed;
-    width: 100%;    
-    border: 2px;    
-    border-style: solid;
-    border-color: coral;
-      }
-  .tres{
-background-color: rgb(0, 255, 55);
-  }
-  .cuatro{
+  position: fixed;
+  width: 100%;    
+  border: 2px;    
+  border-style: solid;
+  border-color: coral;
+    }
+
+.cuatro{
 background-color: rgb(255, 81, 0);
-  }
-  .cinco{
+}
+.cinco{
 background-color: rgb(255, 30, 0);
-  }
-  .seis{
+}
+.seis{
 background-color: rgb(255, 0, 179);
-  }
+}
 
 .btn-outline-success{
-    background-color: coral;
+  background-color: coral;
 }
 
 .boton{
-  border-color: coral;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 5px;
+border-color: coral;
+border-style: solid;
+border-width: 1px;
+border-radius: 5px;
 
 }
 #cabecera{
-  width: 100%;
-  max-height: 150px;
-  
+width: 100%;
+max-height: 150px;
+
 }
 .tres{
-  margin-top: 220px;
+margin-top: 220px;
+background-image: url(../GokuWeb/src/fondo.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
