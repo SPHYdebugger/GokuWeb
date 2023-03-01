@@ -64,8 +64,10 @@ overflow: scroll;
   font-family: Saiyan-Sans;
   max-height: 500px;
   
+  
 }
 .card img{
+  -webkit-anima
   height: 60%;
 }
 
